@@ -1,0 +1,164 @@
+Microsoft Windows [Version 10.0.17134.345]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Dell>/F:
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\Dell>F:
+
+F:\>E:
+
+E:\>cd Test_Model
+
+E:\Test_Model>python train.py
+Going to read training images
+Now going to read Apple___Apple_scab files (Index: 0)
+Now going to read Apple___Black_rot files (Index: 1)
+Now going to read Apple___Cedar_apple_rust files (Index: 2)
+Now going to read Apple___healthy files (Index: 3)
+Now going to read background files (Index: 4)
+Now going to read Blueberry___healthy files (Index: 5)
+Now going to read Cherry_(including_sour)___healthy files (Index: 6)
+Now going to read Cherry_(including_sour)___Powdery_mildew files (Index: 7)
+Now going to read Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot files (Index: 8)
+Now going to read Corn_(maize)___Common_rust_ files (Index: 9)
+Now going to read Corn_(maize)___healthy files (Index: 10)
+Now going to read Corn_(maize)___Northern_Leaf_Blight files (Index: 11)
+Now going to read Grape___Black_rot files (Index: 12)
+Now going to read Grape___Esca_(Black_Measles) files (Index: 13)
+Now going to read Grape___healthy files (Index: 14)
+Now going to read Grape___Leaf_blight_(Isariopsis_Leaf_Spot) files (Index: 15)
+Now going to read Orange___Haunglongbing_(Citrus_greening) files (Index: 16)
+Now going to read Peach___Bacterial_spot files (Index: 17)
+Now going to read Peach___healthy files (Index: 18)
+Now going to read Pepper,_bell___Bacterial_spot files (Index: 19)
+Now going to read Pepper,_bell___healthy files (Index: 20)
+Now going to read Potato___Early_blight files (Index: 21)
+Now going to read Potato___healthy files (Index: 22)
+Now going to read Potato___Late_blight files (Index: 23)
+Now going to read Raspberry___healthy files (Index: 24)
+Now going to read Soybean___healthy files (Index: 25)
+Now going to read Squash___Powdery_mildew files (Index: 26)
+Now going to read Strawberry___healthy files (Index: 27)
+Now going to read Strawberry___Leaf_scorch files (Index: 28)
+Now going to read Tomato___Bacterial_spot files (Index: 29)
+Now going to read Tomato___Early_blight files (Index: 30)
+Now going to read Tomato___healthy files (Index: 31)
+Now going to read Tomato___Late_blight files (Index: 32)
+Now going to read Tomato___Leaf_Mold files (Index: 33)
+Now going to read Tomato___Septoria_leaf_spot files (Index: 34)
+Now going to read Tomato___Spider_mites Two-spotted_spider_mite files (Index: 35)
+Now going to read Tomato___Target_Spot files (Index: 36)
+Now going to read Tomato___Tomato_mosaic_virus files (Index: 37)
+Now going to read Tomato___Tomato_Yellow_Leaf_Curl_Virus files (Index: 38)
+Complete reading input data. Will Now print a snippet of it
+Number of files in Training-set:                8804
+Number of files in Validation-set:      2200
+2018-10-11 21:15:21.901736: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+WARNING:tensorflow:From train.py:44: calling argmax (from tensorflow.python.ops.math_ops) with dimension is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the `axis` argument instead
+WARNING:tensorflow:From train.py:160: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2018-10-11 21:15:22.937596: W tensorflow/core/framework/allocator.cc:113] Allocation of 536870912 exceeds 10% of system memory.
+2018-10-11 21:15:26.944644: W tensorflow/core/framework/allocator.cc:113] Allocation of 536870912 exceeds 10% of system memory.
+2018-10-11 21:15:28.228139: W tensorflow/core/framework/allocator.cc:113] Allocation of 536870912 exceeds 10% of system memory.
+2018-10-11 21:15:29.544530: W tensorflow/core/framework/allocator.cc:113] Allocation of 536870912 exceeds 10% of system memory.
+Training Epoch 1 --- Training Accuracy:   3.5%, Validation Accuracy:   0.4%,  Validation Loss: 3.648
+2018-10-11 21:15:31.408614: W tensorflow/core/framework/allocator.cc:113] Allocation of 536870912 exceeds 10% of system memory.
+Training Epoch 2 --- Training Accuracy:   7.4%, Validation Accuracy:  10.9%,  Validation Loss: 3.383
+Training Epoch 3 --- Training Accuracy:  10.9%, Validation Accuracy:  13.3%,  Validation Loss: 3.289
+Training Epoch 4 --- Training Accuracy:  21.9%, Validation Accuracy:  24.2%,  Validation Loss: 3.045
+Training Epoch 5 --- Training Accuracy:  31.2%, Validation Accuracy:  27.7%,  Validation Loss: 2.801
+Training Epoch 6 --- Training Accuracy:  43.0%, Validation Accuracy:  41.4%,  Validation Loss: 2.281
+Training Epoch 7 --- Training Accuracy:  48.4%, Validation Accuracy:  51.6%,  Validation Loss: 1.853
+Training Epoch 8 --- Training Accuracy:  53.1%, Validation Accuracy:  53.5%,  Validation Loss: 1.657
+Training Epoch 9 --- Training Accuracy:  57.4%, Validation Accuracy:  54.3%,  Validation Loss: 1.633
+Training Epoch 10 --- Training Accuracy:  59.4%, Validation Accuracy:  54.7%,  Validation Loss: 1.581
+Training Epoch 11 --- Training Accuracy:  61.3%, Validation Accuracy:  60.5%,  Validation Loss: 1.444
+Training Epoch 12 --- Training Accuracy:  62.9%, Validation Accuracy:  64.1%,  Validation Loss: 1.301
+Training Epoch 13 --- Training Accuracy:  64.5%, Validation Accuracy:  62.1%,  Validation Loss: 1.344
+Training Epoch 14 --- Training Accuracy:  64.5%, Validation Accuracy:  58.6%,  Validation Loss: 1.401
+Training Epoch 15 --- Training Accuracy:  64.5%, Validation Accuracy:  62.9%,  Validation Loss: 1.322
+Training Epoch 16 --- Training Accuracy:  64.5%, Validation Accuracy:  67.6%,  Validation Loss: 1.148
+Training Epoch 17 --- Training Accuracy:  66.4%, Validation Accuracy:  66.4%,  Validation Loss: 1.176
+Training Epoch 18 --- Training Accuracy:  67.2%, Validation Accuracy:  62.1%,  Validation Loss: 1.293
+Training Epoch 19 --- Training Accuracy:  68.8%, Validation Accuracy:  62.9%,  Validation Loss: 1.253
+Training Epoch 20 --- Training Accuracy:  69.5%, Validation Accuracy:  68.4%,  Validation Loss: 1.061
+Training Epoch 21 --- Training Accuracy:  69.9%, Validation Accuracy:  69.9%,  Validation Loss: 1.064
+Training Epoch 22 --- Training Accuracy:  71.1%, Validation Accuracy:  65.6%,  Validation Loss: 1.223
+Training Epoch 23 --- Training Accuracy:  71.9%, Validation Accuracy:  64.5%,  Validation Loss: 1.197
+Training Epoch 24 --- Training Accuracy:  71.9%, Validation Accuracy:  69.5%,  Validation Loss: 1.005
+Training Epoch 25 --- Training Accuracy:  72.3%, Validation Accuracy:  73.4%,  Validation Loss: 0.982
+Training Epoch 26 --- Training Accuracy:  72.7%, Validation Accuracy:  66.8%,  Validation Loss: 1.169
+Training Epoch 27 --- Training Accuracy:  74.6%, Validation Accuracy:  66.8%,  Validation Loss: 1.156
+Training Epoch 28 --- Training Accuracy:  75.4%, Validation Accuracy:  69.9%,  Validation Loss: 0.963
+Training Epoch 29 --- Training Accuracy:  75.4%, Validation Accuracy:  75.4%,  Validation Loss: 0.920
+Training Epoch 30 --- Training Accuracy:  75.8%, Validation Accuracy:  69.1%,  Validation Loss: 1.101
+Training Epoch 31 --- Training Accuracy:  77.0%, Validation Accuracy:  69.1%,  Validation Loss: 1.113
+Training Epoch 32 --- Training Accuracy:  78.5%, Validation Accuracy:  70.3%,  Validation Loss: 0.911
+Training Epoch 33 --- Training Accuracy:  78.9%, Validation Accuracy:  76.6%,  Validation Loss: 0.855
+Training Epoch 34 --- Training Accuracy:  80.1%, Validation Accuracy:  71.5%,  Validation Loss: 1.036
+Training Epoch 35 --- Training Accuracy:  80.9%, Validation Accuracy:  69.9%,  Validation Loss: 1.078
+Training Epoch 36 --- Training Accuracy:  81.6%, Validation Accuracy:  72.3%,  Validation Loss: 0.873
+Training Epoch 37 --- Training Accuracy:  82.8%, Validation Accuracy:  76.6%,  Validation Loss: 0.816
+Training Epoch 38 --- Training Accuracy:  84.4%, Validation Accuracy:  73.4%,  Validation Loss: 0.995
+Training Epoch 39 --- Training Accuracy:  85.2%, Validation Accuracy:  71.1%,  Validation Loss: 1.053
+Training Epoch 40 --- Training Accuracy:  86.3%, Validation Accuracy:  73.0%,  Validation Loss: 0.847
+Training Epoch 41 --- Training Accuracy:  86.7%, Validation Accuracy:  79.3%,  Validation Loss: 0.787
+Training Epoch 42 --- Training Accuracy:  86.7%, Validation Accuracy:  74.2%,  Validation Loss: 0.963
+Training Epoch 43 --- Training Accuracy:  86.7%, Validation Accuracy:  71.9%,  Validation Loss: 1.035
+Training Epoch 44 --- Training Accuracy:  86.3%, Validation Accuracy:  73.4%,  Validation Loss: 0.828
+Training Epoch 45 --- Training Accuracy:  86.3%, Validation Accuracy:  79.7%,  Validation Loss: 0.766
+Training Epoch 46 --- Training Accuracy:  86.3%, Validation Accuracy:  75.0%,  Validation Loss: 0.941
+Training Epoch 47 --- Training Accuracy:  86.7%, Validation Accuracy:  72.3%,  Validation Loss: 1.018
+Training Epoch 48 --- Training Accuracy:  87.5%, Validation Accuracy:  74.6%,  Validation Loss: 0.815
+Training Epoch 49 --- Training Accuracy:  87.9%, Validation Accuracy:  79.7%,  Validation Loss: 0.748
+Training Epoch 50 --- Training Accuracy:  89.5%, Validation Accuracy:  75.0%,  Validation Loss: 0.926
+Training Epoch 51 --- Training Accuracy:  89.5%, Validation Accuracy:  73.4%,  Validation Loss: 1.002
+Training Epoch 52 --- Training Accuracy:  89.5%, Validation Accuracy:  75.8%,  Validation Loss: 0.812
+Training Epoch 53 --- Training Accuracy:  89.5%, Validation Accuracy:  79.7%,  Validation Loss: 0.734
+Training Epoch 54 --- Training Accuracy:  89.5%, Validation Accuracy:  74.6%,  Validation Loss: 0.914
+Training Epoch 55 --- Training Accuracy:  90.2%, Validation Accuracy:  73.8%,  Validation Loss: 0.991
+Training Epoch 56 --- Training Accuracy:  91.0%, Validation Accuracy:  76.6%,  Validation Loss: 0.804
+Training Epoch 57 --- Training Accuracy:  91.0%, Validation Accuracy:  80.5%,  Validation Loss: 0.724
+Training Epoch 58 --- Training Accuracy:  91.4%, Validation Accuracy:  74.2%,  Validation Loss: 0.901
+Training Epoch 59 --- Training Accuracy:  91.4%, Validation Accuracy:  73.4%,  Validation Loss: 0.980
+Training Epoch 60 --- Training Accuracy:  91.4%, Validation Accuracy:  76.6%,  Validation Loss: 0.804
+Training Epoch 61 --- Training Accuracy:  91.8%, Validation Accuracy:  79.7%,  Validation Loss: 0.720
+Training Epoch 62 --- Training Accuracy:  91.4%, Validation Accuracy:  73.4%,  Validation Loss: 0.894
+Training Epoch 63 --- Training Accuracy:  91.4%, Validation Accuracy:  73.4%,  Validation Loss: 0.980
+Training Epoch 64 --- Training Accuracy:  91.8%, Validation Accuracy:  75.8%,  Validation Loss: 0.818
+Training Epoch 65 --- Training Accuracy:  92.2%, Validation Accuracy:  79.3%,  Validation Loss: 0.724
+Training Epoch 66 --- Training Accuracy:  92.2%, Validation Accuracy:  72.7%,  Validation Loss: 0.898
+Training Epoch 67 --- Training Accuracy:  92.2%, Validation Accuracy:  73.0%,  Validation Loss: 0.982
+Training Epoch 68 --- Training Accuracy:  92.6%, Validation Accuracy:  74.6%,  Validation Loss: 0.836
+Training Epoch 69 --- Training Accuracy:  93.4%, Validation Accuracy:  79.3%,  Validation Loss: 0.724
+Training Epoch 70 --- Training Accuracy:  93.0%, Validation Accuracy:  72.7%,  Validation Loss: 0.909
+Training Epoch 71 --- Training Accuracy:  93.0%, Validation Accuracy:  73.4%,  Validation Loss: 0.987
+Training Epoch 72 --- Training Accuracy:  93.0%, Validation Accuracy:  74.2%,  Validation Loss: 0.865
+Training Epoch 73 --- Training Accuracy:  93.4%, Validation Accuracy:  79.7%,  Validation Loss: 0.722
+Training Epoch 74 --- Training Accuracy:  93.4%, Validation Accuracy:  74.6%,  Validation Loss: 0.944
+Training Epoch 75 --- Training Accuracy:  93.0%, Validation Accuracy:  73.4%,  Validation Loss: 1.009
+Training Epoch 76 --- Training Accuracy:  91.8%, Validation Accuracy:  71.9%,  Validation Loss: 0.908
+Training Epoch 77 --- Training Accuracy:  91.8%, Validation Accuracy:  80.1%,  Validation Loss: 0.728
+Training Epoch 78 --- Training Accuracy:  93.0%, Validation Accuracy:  74.2%,  Validation Loss: 0.948
+Training Epoch 79 --- Training Accuracy:  93.0%, Validation Accuracy:  73.0%,  Validation Loss: 1.014
+Training Epoch 80 --- Training Accuracy:  92.6%, Validation Accuracy:  75.0%,  Validation Loss: 0.849
+Training Epoch 81 --- Training Accuracy:  94.1%, Validation Accuracy:  80.5%,  Validation Loss: 0.681
+Training Epoch 82 --- Training Accuracy:  93.8%, Validation Accuracy:  74.6%,  Validation Loss: 0.939
+Training Epoch 83 --- Training Accuracy:  94.1%, Validation Accuracy:  74.2%,  Validation Loss: 1.013
+Training Epoch 84 --- Training Accuracy:  94.9%, Validation Accuracy:  75.4%,  Validation Loss: 0.829
+Training Epoch 85 --- Training Accuracy:  96.1%, Validation Accuracy:  78.9%,  Validation Loss: 0.679
+Training Epoch 86 --- Training Accuracy:  95.7%, Validation Accuracy:  76.2%,  Validation Loss: 0.910
+Training Epoch 87 --- Training Accuracy:  95.3%, Validation Accuracy:  76.6%,  Validation Loss: 0.965
+Training Epoch 88 --- Training Accuracy:  96.1%, Validation Accuracy:  76.6%,  Validation Loss: 0.821
+Training Epoch 89 --- Training Accuracy:  94.5%, Validation Accuracy:  77.3%,  Validation Loss: 0.762
+
+E:\Test_Model>
