@@ -1,0 +1,2 @@
+model_checkpoint_path: "./corn_model"
+all_model_checkpoint_paths: "./corn_model"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "./strawberry_model"
+all_model_checkpoint_paths: "./strawberry_model"
