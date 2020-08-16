@@ -1,5 +1,7 @@
 # EarthwormAPI
 
+__Disclaimer__: _This project is no longer maintained and may contain outdated/vulnerable dependencies.__  
+
 This is the API code for project __Earthworm__ made as a part of 7th Semester project by _Aurobindo Debnath_ and his colleagues in the year 2018.  
 The API is coded in Django REST Framework which is a web development framework for Python.
 
